@@ -1,0 +1,15 @@
+.darkIcon {
+  color: var(--mantine-color-yellow-4);
+
+  @mixin light {
+    display: none;
+  }
+}
+
+.lightIcon {
+  color: var(--mantine-color-blue-7);
+
+  @mixin dark {
+    display: none;
+  }
+}
